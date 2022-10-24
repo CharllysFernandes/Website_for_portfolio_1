@@ -1,2 +1,2 @@
 # Website_for_portfolio_1
-Create website from figma file template
+Creating a portfolio from a figma template.
