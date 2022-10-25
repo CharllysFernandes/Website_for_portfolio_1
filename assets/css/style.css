@@ -8,6 +8,10 @@
     src: url("../fonts/Poppins/Poppins-Medium.ttf");
 }
 @font-face {
+    font-family: "Poppins Light";
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
     font-family: "Poppins Black";
     src: url("../fonts/Poppins/Poppins-Black.ttf");
 }
@@ -336,7 +340,7 @@ button svg{
 }
 
 .hire-me-title{
-    font-family: "Poppins Medium";
+    font-family: "Poppins Light";
     font-size: 24px;
     line-height: 36px;
     color: var(--color-brand-hero-black-text);
@@ -354,4 +358,53 @@ button svg{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+}
+
+.cta{
+    border-radius: 10px;
+    background-color: var(--color-brand-button);
+    height: 313px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta div{
+    margin: 63px 140.44px 60px 85px;
+    width: 265px;
+    height: 190px;
+}
+.cta-text{
+    font-family: "Poppins SemiBold";
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.cta-button1{
+    border-radius: 10px;
+    border: none;
+    width: 212.19px;
+    height: 70px;
+    background-color: #FFFFFF;
+    color: var(--color-brand-hero-black-text);
+    font-family: "Poppins SemiBold";
+    font-size: 24px;
+}
+
+.cta-button2{
+    width: 273.25px;
+    height: 70px;
+    border: #FFFFFF solid 2px;
+    border-radius: 10px;
+    background-color: var(--color-brand-button);
+    color: #FFFFFF;
+    font-family: "Poppins Bold";
+    font-size: 24px;
+    margin: 0 84.12px 0 50px;
 }
