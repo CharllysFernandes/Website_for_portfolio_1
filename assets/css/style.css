@@ -46,7 +46,7 @@
 
 /* reset css */
 *{
-    border: rgba(255, 0, 0, 0.397) solid 1px;
+    /* border: rgba(255, 0, 0, 0.397) solid 1px; */
 
     margin: 0;
     padding: 0;
@@ -228,6 +228,18 @@ button svg{
 
 }
 
+.title-recent-project{
+    width: max-content;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.title-recent-project,h2{
+    margin-bottom:0 !important;
+}
+
 .glad-card-image{
     object-fit: cover;
     /* margin: 0 60px 63px 65px; */
@@ -283,21 +295,11 @@ button svg{
     color: var(--color-brand-grey-text);
 }
 
-.carda-projets{
+.card-projets{
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
     align-items: center;
-}
-
-.title_recent_projects{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0 0 0;
 }
 
 .card-recent-project img{
@@ -320,7 +322,6 @@ button svg{
     font-family: "Poppins Medium";
     font-size: 16px;
     color: var(--color-text-nav);
-    margin: 0px 50px 0 13px;
 }
 
 .card-recent-project-button{
@@ -335,15 +336,15 @@ button svg{
 
 .hire-me-title{
     font-family: "Poppins Light";
-    font-size: 24px;
+    /* font-size: 24px; */
     line-height: 36px;
     color: var(--color-brand-hero-black-text);
 }
 
 .hire-me-subtitle{
     font-family: "Poppins Regular";
-    width: 240px;
-    font-size: 18px;
+    /* width: 240px; */
+    /* font-size: 18px; */
     line-height: 30px;
     color: var(--color-brand-grey-text);
 }
@@ -357,6 +358,7 @@ button svg{
 }
 
 .cta{
+    height: 313px !important;
     border-radius: 10px;
     background-color: var(--color-brand-button);
     height: auto;
@@ -369,13 +371,14 @@ button svg{
 }
 
 .cta div{
-    margin: 63px 140.44px 60px 85px;
-    width: 265px;
-    height: 190px;
+    /* /* margin: 63px 140.44px 60px 85px; */
+    /* width: 265px; */
+   
 }
 .cta-text{
+    padding-left: 80px;
     font-family: "Poppins SemiBold";
-    font-size: 48px;
+    /* font-size: 48px; */
     color: #FFFFFF;
     text-align: start;
 }
@@ -400,7 +403,7 @@ button svg{
     color: #FFFFFF;
     font-family: "Poppins Bold";
     font-size: 24px;
-    margin: 0 84.12px 0 50px;
+    /* margin: 0 84.12px 0 50px; */
 }
 
 .brands svg{
@@ -428,10 +431,10 @@ button svg{
 
 .slider-user-title{
     text-align: center;
-    width: 609px;
+    /* width: 609px; */
     height: auto;
     font-family: "Poppins SemiBold";
-    font-size: 48px;
+    /* font-size: 48px; */
     line-height: 60px;
     color: #FFFFFF;
 }
