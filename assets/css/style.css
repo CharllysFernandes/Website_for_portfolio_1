@@ -41,12 +41,25 @@
     --color-brand-blue:#486074;
     --color-text-nav: #151517;
     --color-bg-glad-card:#E9E9E9;
+    --color-icons-social: #676767;
 }
 
 /* reset css */
 *{
+    border: rgba(255, 0, 0, 0.397) solid 1px;
+
     margin: 0;
     padding: 0;
+    text-decoration: none !important;
+   
+}
+
+a i{
+    color: var(--color-icons-social) ;
+}
+
+a i:hover{
+    color: var(--color-brand-hero-yellow-text);
 }
 
 body{
@@ -56,7 +69,7 @@ body{
 }
 
 section{
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .title-brand{
@@ -64,13 +77,13 @@ section{
     font-size: 22px;
 }
 
-header{
+/* header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-content: center;
     height: 99px;
-}
+} */
 
 header li{
     list-style-type: none;
@@ -84,6 +97,10 @@ header li a{
     color: var(--color-text-nav);
 }
 
+.nav-item:hover{
+    color: var(--color-brand-button) !important;
+}
+
 .navbar-options{
     text-decoration: none;
     font-family: "Poppins Medium";
@@ -92,7 +109,7 @@ header li a{
 
 .hero{
     width: auto;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex
 }
 
@@ -102,7 +119,7 @@ header li a{
 
 .text1{
     font-family: "Poppins Medium";
-    font-size: 24px;
+    /* font-size: 24px; */
     line-height: 36px;
     color: var(--color-brand-grey-text);
     margin: 0 0 16px;
@@ -111,7 +128,7 @@ header li a{
 .text2{
     margin: 16px 0 15px;
     font-family: "Poppins Semibold";
-    font-size: 48px;
+    /* font-size: 48px; */
     line-height: 62px;
     color: var(--color-brand-hero-black-text);
 
@@ -122,9 +139,9 @@ h2 span {
 
 .hero p {
     margin: 22px 0 32px;
-    font-size: 16px;
-    line-height: 30px;
-    width: 475px;
+    /* font-size: 16px; */
+    /* line-height: 30px; */
+    /* width: 475px; */
 }
 
 .follow{
@@ -140,13 +157,12 @@ h2 span {
     /* margin: 44px 0; */
     background-color: var(--color-brand-button);
     color: var(--color-brand-write-text);
-    font-family: "Poppins Bold";
-    font-size: 16px;
+    font-family: "Poppins SemiBold";
+    /* font-size: 12px !important; */
     /* vertical-align: middle; */
     border: var(--color-brand-button) none ;
     border-radius: 10px;
-    height: 55px;
-    width: 151px;
+    width: auto;
 
 }
 
@@ -156,8 +172,8 @@ button svg{
 }
 
 .btn2{
-    margin: 0 0 0 30px;
-    width: 184px;
+    /* margin: 0 0 0 30px; */
+    /* width: 184px; */
     background-color: var(--color-brand-bg-grey);
     border: var(--color-brand-button) solid ;
     color: var(--color-brand-hero-black-text);
@@ -170,18 +186,18 @@ button svg{
 
 .hero-image img{
     margin: 77px 0 0 0;
-    border-radius: 50%;
 
 }
 
 .hero-image-circule{
     z-index: -1;
-    position: absolute;
-    top: 100px;
+    position:absolute;
+    top: 50px;
+    left: 650px;
     margin: 42px 59px 0 0;
     border-radius: 50%;
-    width: 496px;
-    height: 496px;
+    width: 460px;
+    height: 460px;
     border: var(--color-brand-grey-text) solid 2px;
     text-align: right;
     opacity: 16%;
@@ -203,10 +219,6 @@ button svg{
 }
 
 .glad-card{
-    display: flex;
-    align-content: flex-start;
-    flex-direction: row;
-    flex-wrap: nowrap;
     border-radius: 45px;
     background-color: var(--color-bg-glad-card);
     margin-top: 83px;
@@ -218,69 +230,51 @@ button svg{
 
 .glad-card-image{
     object-fit: cover;
-    margin: 0 60px 63px 65px;
+    /* margin: 0 60px 63px 65px; */
     border-radius: 30px;
     text-align: left;
     transform: scaleX(-1);
 }
 
-.glad-card-projects{
-    font-family: "Poppins SemiBold";
-    color: var(--color-brand-hero-black-text);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .title{
     font-family: "Poppins SemiBold";
     font-size: 48px;
-    line-height: 62px;
+    /* line-height: 62px; */
     color: var(--color-text-nav);
     /* margin: 70px 0 19px 0; */
 }
 
-
-.glad-card-title{
-    margin: 70px 0 19px 0;
-}
-
 .glad-card-text{
     font-family: "Poppins Regular";
-    margin-right: 65px;
+    /* margin-right: 65px; */
     font-size: 24px;
     letter-spacing: 0px;
-    line-height: 45px;
+    /* line-height: 45px; */
     color: #000;
 }
 
 .glad-card-star{
     display: inline;
-    width: 148px;
+    /* width: 148px; */
     height: 25px;
 }
 .projects-completed{
+    font-family: "Poppins SemiBold";
+    color: var(--color-brand-hero-black-text);
     font-size: 72px;
-    line-height: 62px;
-    width: auto;
-    margin: 0 49px 0 0;
+    /* line-height: 62px; */
+    /* width: auto; */
+    /* margin: 0 49px 0 0; */
     
 }
 
 .projects-completed p{
     font-family: "Poppins Regular";
     font-size: 24px;
-    line-height: 36px;
+    /* line-height: 36px; */
     color: var(--color-brand-grey-text);
 }
 
-.projects-stars{
-    font-size: 48px;
-    line-height: 62px;
-}
 
 .projects-stars p{
     font-family: "Poppins Regular";

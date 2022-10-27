@@ -7,136 +7,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minify - Charllys Fernandes</title>
     <meta name="description" content="Website from figma file template.">
+    <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- bootstrap 5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <span class="title-brand">Minify</span>
-        <ul class="navbar-options">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
-    <main>
-        <section class="hero">
-            <div>
-                <span class="text1">Hey!</span>
-                <h2 class="text2">
-                    I’m <span>Ariene Rey.</span>
-                    <br> UI/UX Designer.
-                </h2>
-                <svg width="324" height="19" viewBox="0 0 324 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M191.589 7.17545C118.307 7.17545 41.4668 14.1131 6.38388 18.2259C2.99201 18.6235 0 15.9817 0 12.5666C0 9.54554 2.34036 7.05539 5.35757 6.90294C39.9357 5.15576 111.001 1.77231 157.562 0.277794C205.757 -1.26919 285.905 4.01447 321.977 7.00619C323.139 7.10256 324 8.07177 324 9.23783C324 10.5259 322.92 11.5504 321.635 11.4645C304.579 10.3251 284.902 7.17545 191.589 7.17545Z"
-                        fill="#6FC2C5" />
-                </svg>
-                <p>
-                    UX Designer based in Jakarta, Indonesia.
-                    I am designing with a minimal and beautiful design in mind.
-                </p>
-                <span class="follow">
-                    Follow me
-                    <!-- icons -->
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-youtube"></i>
-                    <i class="bi bi-dribbble"></i>
-                </span>
-                <br>
-                <div class="hero-btn">
-                    <button class="btn">
-                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M18 16H2C0.89543 16 0 15.1046 0 14V1.913C0.0466084 0.842548 0.928533 -0.00101238 2 9.11911e-07H18C19.1046 9.11911e-07 20 0.895432 20 2V14C20 15.1046 19.1046 16 18 16ZM2 3.868V14H18V3.868L10 9.2L2 3.868ZM2.8 2L10 6.8L17.2 2H2.8Z"
-                                fill="#F1F1F1" />
-                        </svg>
-                        Mail me
-                    </button>
-                    <button class="btn btn2">
-                        <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14 20H0V18H14V20ZM7 16L1 10L2.41 8.59L6 12.17V0H8V12.17L11.59 8.59L13 10L7 16Z"
-                                fill="#2F2F2F" />
-                        </svg>
-
-                        Download CV
-                    </button>
-                </div>
+    <header class="text-center mx-1">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand title-brand" href="#">Minify</a>
+              <ul class="navbar-nav d-flex flex-row">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              
             </div>
-            <div class="hero-image">
-                <img src="./assets/images/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="persona" srcset="" width="540"
-                    height="540">
-                <div class="hero-image-circule"></div>
-                <img class="hero-image-points" src="./assets/images/point.svg" alt="" srcset="">
+          </nav>
+        
+    </header>
+    <main class="mx-1">
+        <section class="hero">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <span class="text1 fs-5">Hey!</span>
+                        <h2 class="text2 fs-2">
+                            I’m <span>Ariene Rey.</span>
+                            <br> UI/UX Designer.
+                        </h2>
+                        <svg width="324" height="19" viewBox="0 0 324 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M191.589 7.17545C118.307 7.17545 41.4668 14.1131 6.38388 18.2259C2.99201 18.6235 0 15.9817 0 12.5666C0 9.54554 2.34036 7.05539 5.35757 6.90294C39.9357 5.15576 111.001 1.77231 157.562 0.277794C205.757 -1.26919 285.905 4.01447 321.977 7.00619C323.139 7.10256 324 8.07177 324 9.23783C324 10.5259 322.92 11.5504 321.635 11.4645C304.579 10.3251 284.902 7.17545 191.589 7.17545Z"
+                                fill="#6FC2C5" />
+                        </svg>
+                        <p class="fs-6">
+                            UX Designer based in Jakarta, Indonesia.
+                            I am designing with a minimal and beautiful design in mind.
+                        </p>
+                        <span class="follow fs-5">
+                            Follow me
+                            <!-- icons -->
+                            <a class="" href="#">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-dribbble"></i>
+        
+                            </a>
+                        </span>
+                        <br>
+                        <div class="d-inline-flex justify-content-between w-100 mt-4">
+                            <button class="btn fs-6">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18 16H2C0.89543 16 0 15.1046 0 14V1.913C0.0466084 0.842548 0.928533 -0.00101238 2 9.11911e-07H18C19.1046 9.11911e-07 20 0.895432 20 2V14C20 15.1046 19.1046 16 18 16ZM2 3.868V14H18V3.868L10 9.2L2 3.868ZM2.8 2L10 6.8L17.2 2H2.8Z"
+                                        fill="#F1F1F1" />
+                                </svg>
+                                <span>email me</span>
+                            </button>
+                            <button class="btn btn2 fs-6">
+                                <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 20H0V18H14V20ZM7 16L1 10L2.41 8.59L6 12.17V0H8V12.17L11.59 8.59L13 10L7 16Z"
+                                        fill="#2F2F2F" />
+                                </svg>
+                                <span >Download CV</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col align-self-center">
+                        <img class="hero-image-points rounded-circle" src="./assets/images/point.svg" alt="" srcset="">
+                        <img class="rounded-circle w-100" src="./assets/images/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="persona" srcset="">
+                           <div class="hero-image-circule"></div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="glad-card">
-            <img class="glad-card-image" src="./assets/images/alex-suprun-UUp9z94QhLA-unsplash.jpg" alt="" width="350"
-                height="458">
-            <div>
-                <div class="glad-card-projects">
-                    <span class="projects-completed">120 <strong style="color: #8ED2A9;">+</strong>
-                        <p>Completed Projects</p>
-                    </span>
-                    <span class="projects-stars">A + <img class="glad-card-star" src="./assets/images/stars.svg" alt=""
-                            srcset="" width="148" height="25">
-                        <p>Positive Review’s</p>
-                    </span>
+        <section class="glad-card container-fluid">
+            <div class="row">
+                <!-- col one -->
+                <div class="col align-self-center">
+                    <img class="glad-card-image container-fluid" src="./assets/images/alex-suprun-UUp9z94QhLA-unsplash.jpg" alt="" width="350" height="458">
+
                 </div>
-                <h2 class="glad-card-title title">Glad to Help You!</h2>
-                <p class="glad-card-text">As a full-service digital designer, I work closely with my clients to define,
-                    design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
+                <!-- col two -->
+                <div class="col align-self-center">
+                    <div class="row">
+                        <div class="col">
+                            <span class="projects-completed fs-4">120 <strong style="color: #8ED2A9;">+</strong>
+                                <p class="fs-6">Completed Projects</p>
+                            </span>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <span class="projects-completed fs-4 w-auto">A +
+                                    <img class="glad-card-star w-50 align-self-center" src="./assets/images/stars.svg" alt=""
+                                        srcset="" width="25" height="25">
+
+                                        <p class="fs-6">Positive Review’s</p>
+                                </span>
+                                </div>
+                        </div>
+                    </div>
+                    <h2 class="glad-card-title title fs-4">Glad to Help You!</h2>
+                    <p class="glad-card-text fs-6">As a full-service digital designer, I work closely with my clients to define,
+                        design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
+
+                </div>
+
+            </div>
+            <div>
             </div>
         </section>
         <section>
             <div class="title_recent_projects">
-                <h2 class="title">Recent Projects</h2>
-                <button class="btn">View More</button>
+                <h2 class="title fs-2">Recent Projects</h2>
+                <button class="btn fs-6">View More</button>
             </div>
-            <div class="carda-projets">
-                <div class="card-recent-project">
-                    <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash (1).jpg" alt="" srcset="" width="540"
-                        height="756">
-                    <div>
-                        <p class="card-recent-project-title">UI Portofolio</p>
-                        <div class="card-recent-project-button">
-                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9 19.135L0 12.135L1.62 10.875L8.99 16.605L16.37 10.865L18 12.135L9 19.135ZM9 14.865L1.63 9.13499L0 7.86499L9 0.86499L18 7.86499L16.36 9.13499L9 14.865Z"
-                                    fill="#151517" />
-                            </svg>
-                            <span class="card-recent-project-options">View Study Case</span>
-                            <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10 14.0001C8.35987 14.0205 6.7367 13.6665 5.254 12.9651C4.10469 12.4043 3.07265 11.6299 2.213 10.6831C1.30243 9.70422 0.585467 8.56176 0.1 7.3161L0 7.0001L0.105 6.6841C0.590815 5.43953 1.30624 4.29737 2.214 3.3171C3.07334 2.37041 4.10504 1.59596 5.254 1.0351C6.73671 0.333689 8.35988 -0.020288 10 0.000100949C11.6401 -0.0202528 13.2633 0.333723 14.746 1.0351C15.8953 1.59584 16.9274 2.37029 17.787 3.3171C18.6993 4.29466 19.4165 5.43747 19.9 6.6841L20 7.0001L19.895 7.3161C18.3262 11.3999 14.3742 14.0694 10 14.0001ZM10 2.0001C6.59587 1.89343 3.47142 3.8752 2.117 7.0001C3.4712 10.1252 6.59579 12.1071 10 12.0001C13.4041 12.1065 16.5284 10.1248 17.883 7.0001C16.5304 3.87368 13.4047 1.89118 10 2.0001ZM10 10.0001C8.55733 10.0097 7.30937 8.99746 7.02097 7.58387C6.73256 6.17029 7.48427 4.75012 8.81538 4.19376C10.1465 3.6374 11.6852 4.10024 12.4885 5.29861C13.2919 6.49698 13.1354 8.09618 12.115 9.1161C11.5563 9.68136 10.7948 9.99967 10 10.0001Z"
-                                    fill="#151517" />
-                            </svg>
-                            <span class="card-recent-project-options">Live Preview</span>
+            <div class="row">
+                <div class="col">
+                    <div class="card-recent-project container-fluid">
+                        <img class="container-fluid" src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash (1).jpg" alt="" srcset=""  width="200">
+                        <div>
+                            <p class="card-recent-project-title">UI Portofolio</p>
+                            <div class="card-recent-project-button">
+                                <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 19.135L0 12.135L1.62 10.875L8.99 16.605L16.37 10.865L18 12.135L9 19.135ZM9 14.865L1.63 9.13499L0 7.86499L9 0.86499L18 7.86499L16.36 9.13499L9 14.865Z"
+                                        fill="#151517" />
+                                </svg>
+                                <span class="card-recent-project-options">View Study Case</span>
+                                <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 14.0001C8.35987 14.0205 6.7367 13.6665 5.254 12.9651C4.10469 12.4043 3.07265 11.6299 2.213 10.6831C1.30243 9.70422 0.585467 8.56176 0.1 7.3161L0 7.0001L0.105 6.6841C0.590815 5.43953 1.30624 4.29737 2.214 3.3171C3.07334 2.37041 4.10504 1.59596 5.254 1.0351C6.73671 0.333689 8.35988 -0.020288 10 0.000100949C11.6401 -0.0202528 13.2633 0.333723 14.746 1.0351C15.8953 1.59584 16.9274 2.37029 17.787 3.3171C18.6993 4.29466 19.4165 5.43747 19.9 6.6841L20 7.0001L19.895 7.3161C18.3262 11.3999 14.3742 14.0694 10 14.0001ZM10 2.0001C6.59587 1.89343 3.47142 3.8752 2.117 7.0001C3.4712 10.1252 6.59579 12.1071 10 12.0001C13.4041 12.1065 16.5284 10.1248 17.883 7.0001C16.5304 3.87368 13.4047 1.89118 10 2.0001ZM10 10.0001C8.55733 10.0097 7.30937 8.99746 7.02097 7.58387C6.73256 6.17029 7.48427 4.75012 8.81538 4.19376C10.1465 3.6374 11.6852 4.10024 12.4885 5.29861C13.2919 6.49698 13.1354 8.09618 12.115 9.1161C11.5563 9.68136 10.7948 9.99967 10 10.0001Z"
+                                        fill="#151517" />
+                                </svg>
+                                <span class="card-recent-project-options">Live Preview</span>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="card-recent-project">
-                    <img src="./assets/images//domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="" srcset="" width="540"
-                        height="756">
-                    <div>
-                        <p class="card-recent-project-title">UI Portofolio</p>
-                        <div class="card-recent-project-button">
-                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9 19.135L0 12.135L1.62 10.875L8.99 16.605L16.37 10.865L18 12.135L9 19.135ZM9 14.865L1.63 9.13499L0 7.86499L9 0.86499L18 7.86499L16.36 9.13499L9 14.865Z"
-                                    fill="#151517" />
-                            </svg>
-                            <span class="card-recent-project-options">View Study Case</span>
-                            <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10 14.0001C8.35987 14.0205 6.7367 13.6665 5.254 12.9651C4.10469 12.4043 3.07265 11.6299 2.213 10.6831C1.30243 9.70422 0.585467 8.56176 0.1 7.3161L0 7.0001L0.105 6.6841C0.590815 5.43953 1.30624 4.29737 2.214 3.3171C3.07334 2.37041 4.10504 1.59596 5.254 1.0351C6.73671 0.333689 8.35988 -0.020288 10 0.000100949C11.6401 -0.0202528 13.2633 0.333723 14.746 1.0351C15.8953 1.59584 16.9274 2.37029 17.787 3.3171C18.6993 4.29466 19.4165 5.43747 19.9 6.6841L20 7.0001L19.895 7.3161C18.3262 11.3999 14.3742 14.0694 10 14.0001ZM10 2.0001C6.59587 1.89343 3.47142 3.8752 2.117 7.0001C3.4712 10.1252 6.59579 12.1071 10 12.0001C13.4041 12.1065 16.5284 10.1248 17.883 7.0001C16.5304 3.87368 13.4047 1.89118 10 2.0001ZM10 10.0001C8.55733 10.0097 7.30937 8.99746 7.02097 7.58387C6.73256 6.17029 7.48427 4.75012 8.81538 4.19376C10.1465 3.6374 11.6852 4.10024 12.4885 5.29861C13.2919 6.49698 13.1354 8.09618 12.115 9.1161C11.5563 9.68136 10.7948 9.99967 10 10.0001Z"
-                                    fill="#151517" />
-                            </svg>
-                            <span class="card-recent-project-options">Live Preview</span>
+                <div class="col">
+                    <div class="carda-projets">
+                        <div class="card-recent-project">
+                            <img src="./assets/images//domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="" srcset="" width="540"
+                                height="756">
+                            <div>
+                                <p class="card-recent-project-title">UI Portofolio</p>
+                                <div class="card-recent-project-button">
+                                    <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 19.135L0 12.135L1.62 10.875L8.99 16.605L16.37 10.865L18 12.135L9 19.135ZM9 14.865L1.63 9.13499L0 7.86499L9 0.86499L18 7.86499L16.36 9.13499L9 14.865Z"
+                                            fill="#151517" />
+                                    </svg>
+                                    <span class="card-recent-project-options">View Study Case</span>
+                                    <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 14.0001C8.35987 14.0205 6.7367 13.6665 5.254 12.9651C4.10469 12.4043 3.07265 11.6299 2.213 10.6831C1.30243 9.70422 0.585467 8.56176 0.1 7.3161L0 7.0001L0.105 6.6841C0.590815 5.43953 1.30624 4.29737 2.214 3.3171C3.07334 2.37041 4.10504 1.59596 5.254 1.0351C6.73671 0.333689 8.35988 -0.020288 10 0.000100949C11.6401 -0.0202528 13.2633 0.333723 14.746 1.0351C15.8953 1.59584 16.9274 2.37029 17.787 3.3171C18.6993 4.29466 19.4165 5.43747 19.9 6.6841L20 7.0001L19.895 7.3161C18.3262 11.3999 14.3742 14.0694 10 14.0001ZM10 2.0001C6.59587 1.89343 3.47142 3.8752 2.117 7.0001C3.4712 10.1252 6.59579 12.1071 10 12.0001C13.4041 12.1065 16.5284 10.1248 17.883 7.0001C16.5304 3.87368 13.4047 1.89118 10 2.0001ZM10 10.0001C8.55733 10.0097 7.30937 8.99746 7.02097 7.58387C6.73256 6.17029 7.48427 4.75012 8.81538 4.19376C10.1465 3.6374 11.6852 4.10024 12.4885 5.29861C13.2919 6.49698 13.1354 8.09618 12.115 9.1161C11.5563 9.68136 10.7948 9.99967 10 10.0001Z"
+                                            fill="#151517" />
+                                    </svg>
+                                    <span class="card-recent-project-options">Live Preview</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
