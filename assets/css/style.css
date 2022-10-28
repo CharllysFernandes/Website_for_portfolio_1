@@ -77,14 +77,6 @@ section{
     font-size: 22px;
 }
 
-/* header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    height: 99px;
-} */
-
 header li{
     list-style-type: none;
     display: inline;
@@ -109,7 +101,6 @@ header li a{
 
 .hero{
     width: auto;
-    /* height: 100vh; */
     display: flex
 }
 
@@ -119,7 +110,6 @@ header li a{
 
 .text1{
     font-family: "Poppins Medium";
-    /* font-size: 24px; */
     line-height: 36px;
     color: var(--color-brand-grey-text);
     margin: 0 0 16px;
@@ -128,20 +118,12 @@ header li a{
 .text2{
     margin: 16px 0 15px;
     font-family: "Poppins Semibold";
-    /* font-size: 48px; */
     line-height: 62px;
     color: var(--color-brand-hero-black-text);
 
 }
 h2 span {
     color: var(--color-brand-hero-yellow-text);
-}
-
-.hero p {
-    margin: 22px 0 32px;
-    /* font-size: 16px; */
-    /* line-height: 30px; */
-    /* width: 475px; */
 }
 
 .follow{
@@ -440,10 +422,9 @@ button svg{
 }
 
 .slider-user-card{
-    margin-top: 50px;
     border-radius: 30px 0 30px 30px;
     background-color: #FFFFFF;
-    padding: 52px 55px;
+    width: 350px !important;
 
 }
 
@@ -457,9 +438,7 @@ button svg{
     margin-top: 42px;
     display: inline-flex;
 }
-.slider-user-card svg{
-    margin-right: 20px;
-}
+
 
 .slider-user-card div h2{
     
