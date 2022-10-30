@@ -24,98 +24,98 @@
     src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
 }
 
-:root{
+:root {
     /* color brand */
     --color-brand-button: #EEBF63;
     --color-brand-maps: #90C0E8;
     --color-brand-effect: #90C0E8;
-    --color-brand-black-title:#1C1C1C;
+    --color-brand-black-title: #1C1C1C;
     --color-brand-black-text: #1C1C1C;
-    --color-brand-hero-black-text:#2F2F2F;
-    --color-brand-hero-yellow-text:#EEBF63;
-    --color-brand-grey-text:#828282;
-    --color-brand-grey:#E1E1E1;
-    --color-brand-bg-grey:#F1F1F1;
-    --color-brand-write-text:#FFFFFF;
-    --color-brand-yellow:#CD921E;
-    --color-brand-blue:#486074;
+    --color-brand-hero-black-text: #2F2F2F;
+    --color-brand-hero-yellow-text: #EEBF63;
+    --color-brand-grey-text: #828282;
+    --color-brand-grey: #E1E1E1;
+    --color-brand-bg-grey: #F1F1F1;
+    --color-brand-write-text: #FFFFFF;
+    --color-brand-yellow: #CD921E;
+    --color-brand-blue: #486074;
     --color-text-nav: #151517;
-    --color-bg-glad-card:#E9E9E9;
+    --color-bg-glad-card: #E9E9E9;
     --color-icons-social: #676767;
 }
 
 /* reset css */
-*{
+* {
     /* border: rgba(255, 0, 0, 0.397) solid 1px; */
 
     margin: 0;
     padding: 0;
     text-decoration: none !important;
-   
+
 }
 
-a i{
-    color: var(--color-icons-social) ;
+a i {
+    color: var(--color-icons-social);
 }
 
-a i:hover{
+a i:hover {
     color: var(--color-brand-hero-yellow-text);
 }
 
-body{
-    background-color:var(--color-brand-bg-grey);
-    padding: 0 156px 0;
+body {
+    background-color: var(--color-brand-bg-grey);
+    padding: 0 156px;
     font-family: "Poppins Regular";
 }
 
-section{
-    padding: 50px 0 0 0;
+section {
+    padding: 50px 0 0;
 }
 
-.title-brand{
+.title-brand {
     font-family: "Poppins Bold";
     font-size: 22px;
 }
 
-header li{
+header li {
     list-style-type: none;
     display: inline;
     margin-left: 40px;
-    
+
 }
 
-header li a{
+header li a {
     text-decoration: none;
     color: var(--color-text-nav);
 }
 
-.nav-item:hover{
+.nav-item a:hover {
     color: var(--color-brand-button) !important;
 }
 
-.navbar-options{
+.navbar-options {
     text-decoration: none;
     font-family: "Poppins Medium";
     font-size: 16px;
 }
 
-.hero{
+.hero {
     width: auto;
     display: flex
 }
 
-.hero-btn{
-    margin: 44px 0 0 0;
+.hero-btn {
+    margin: 44px 0 0;
 }
 
-.text1{
+.text1 {
     font-family: "Poppins Medium";
     line-height: 36px;
     color: var(--color-brand-grey-text);
     margin: 0 0 16px;
 }
 
-.text2{
+.text2 {
     margin: 16px 0 15px;
     font-family: "Poppins Semibold";
     line-height: 62px;
@@ -126,49 +126,75 @@ h2 span {
     color: var(--color-brand-hero-yellow-text);
 }
 
-.follow{
+.follow {
     color: var(--color-brand-grey-text);
     font-size: 18px;
     line-height: 30px;
 }
-.follow i{
+.follow i {
     font-size: 32px;
     margin: 0 0 0 30px;
 }
-.btn{
+
+.HoverClassBtn1:hover{
+    background-color: var(--color-brand-bg-grey);
+    border: var(--color-brand-button) solid;
+    color: var(--color-brand-hero-black-text);
+}
+
+.HoverClassBtn2:hover{
     background-color: var(--color-brand-button);
     color: var(--color-brand-write-text);
-    font-family: "Poppins SemiBold";
-    border: var(--color-brand-button) none ;
-    border-radius: 10px;
-    width: auto;
+    border: var(--color-brand-button) solid;
+}
+
+.btn {
+    background-color: var(--color-brand-button);
+    color: var(--color-brand-write-text);
+    border: var(--color-brand-button) solid;
 
 }
 
-button svg{
+.btn:hover {
+    background-color: var(--color-brand-bg-grey);
+    border: var(--color-brand-button) solid;
+    color: var(--color-brand-hero-black-text);
+
+}
+
+button svg {
     vertical-align: middle;
     margin: 0 12px 0 0;
 }
 
-.btn2{
+.btn2 {
     background-color: var(--color-brand-bg-grey);
-    border: var(--color-brand-button) solid ;
+    border: var(--color-brand-button) solid;
     color: var(--color-brand-hero-black-text);
 }
 
-.hero-image{
+.btn2:hover {
+    background-color: var(--color-brand-button);
+    color: var(--color-brand-write-text);
+    font-family: "Poppins SemiBold";
+    border: var(--color-brand-button) solid;
+    border-radius: 10px;
+
+}
+
+.hero-image {
     width: auto;
     text-align: right;
 }
 
-.hero-image img{
-    margin: 77px 0 0 0;
+.hero-image img {
+    margin: 77px 0 0;
 
 }
 
-.hero-image-circule{
+.hero-image-circule {
     z-index: -1;
-    position:absolute;
+    position: absolute;
     top: 50px;
     left: 650px;
     margin: 42px 59px 0 0;
@@ -180,7 +206,7 @@ button svg{
     opacity: 16%;
 }
 
-.hero-image-points{
+.hero-image-points {
     text-align: right;
     width: 245px;
     height: 179.46px;
@@ -191,21 +217,21 @@ button svg{
     right: 517px;
 }
 
-.hero-image-points svg{
+.hero-image-points svg {
     fill: var(--color-brand-hero-yellow-text);
 }
 
-.glad-card{
+.glad-card {
     border-radius: 45px;
     background-color: var(--color-bg-glad-card);
     margin-top: 83px;
     padding-top: 63px;
-    width:auto;
+    width: auto;
     height: auto;
 
 }
 
-.title-recent-project{
+.title-recent-project {
     width: max-content;
     display: inline-flex;
     align-content: center;
@@ -213,114 +239,115 @@ button svg{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.title-recent-project,h2{
-    margin-bottom:0 !important;
+.title-recent-project,
+h2 {
+    margin-bottom: 0 !important;
 }
 
-.glad-card-image{
+.glad-card-image {
     object-fit: cover;
     border-radius: 30px;
     text-align: left;
     transform: scaleX(-1);
 }
 
-.title{
+.title {
     font-family: "Poppins SemiBold";
     font-size: 48px;
     color: var(--color-text-nav);
 }
 
-.glad-card-text{
+.glad-card-text {
     font-family: "Poppins Regular";
     font-size: 24px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #000;
 }
 
-.glad-card-star{
+.glad-card-star {
     display: inline;
     height: 25px;
 }
-.projects-completed{
+.projects-completed {
     font-family: "Poppins SemiBold";
     color: var(--color-brand-hero-black-text);
-    font-size: 72px;    
+    font-size: 72px;
 }
 
-.projects-completed p{
+.projects-completed p {
     font-family: "Poppins Regular";
     font-size: 24px;
     color: var(--color-brand-grey-text);
 }
 
 
-.projects-stars p{
+.projects-stars p {
     font-family: "Poppins Regular";
     font-size: 24px;
     line-height: 36px;
     color: var(--color-brand-grey-text);
 }
 
-.card-projets{
+.card-projets {
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
     align-items: center;
 }
 
-.card-recent-project img{
+.card-recent-project img {
     width: 500px;
     height: 656px;
-    margin: 56px 0 0 0;
-    object-fit:cover;
+    margin: 56px 0 0;
+    object-fit: cover;
     border-radius: 25px;
 }
 
-.card-recent-project-title{
+.card-recent-project-title {
     font-family: "Poppins SemiBold";
     font-size: 24px;
     color: var(--color-brand-black-text);
-    margin: 20px 0 10px 0;
-    
+    margin: 20px 0 10px;
+
 }
 
-.card-recent-project-options{
+.card-recent-project-options {
     font-family: "Poppins Medium";
     font-size: 16px;
     color: var(--color-text-nav);
 }
 
-.card-recent-project-button{
+.card-recent-project-button {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.hire-me{
+.hire-me {
     text-align: center;
 }
 
-.hire-me-title{
+.hire-me-title {
     font-family: "Poppins Light";
     line-height: 36px;
     color: var(--color-brand-hero-black-text);
 }
 
-.hire-me-subtitle{
+.hire-me-subtitle {
     font-family: "Poppins Regular";
     line-height: 30px;
     color: var(--color-brand-grey-text);
 }
 
-.hire-me-cards{
+.hire-me-cards {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 0 50px 0;
+    margin: 50px 0;
 }
 
-.cta{
+.cta {
     height: 313px !important;
     border-radius: 10px;
     background-color: var(--color-brand-button);
@@ -333,14 +360,14 @@ button svg{
     align-items: center;
 }
 
-.cta-text{
+.cta-text {
     padding-left: 80px;
     font-family: "Poppins SemiBold";
     color: #FFFFFF;
     text-align: start;
 }
 
-.cta-button1{
+.cta-button1 {
     border-radius: 10px;
     border: none;
     width: 212.19px;
@@ -351,7 +378,7 @@ button svg{
     font-size: 24px;
 }
 
-.cta-button2{
+.cta-button2 {
     width: 273.25px;
     height: 70px;
     border: #FFFFFF solid 2px;
@@ -362,18 +389,16 @@ button svg{
     font-size: 24px;
 }
 
-.brands svg{
+.brands svg {
     width: 100%;
 }
 
 
-
-
-.section-slide-user-cards{
+.section-slide-user-cards {
     background-image: url("../images/background-clients.svg");
     position: relative;
     left: -156px;
-    right: 0px;
+    right: 0;
     width: 100vw;
     height: 483px;
     padding: 0 156px;
@@ -385,7 +410,7 @@ button svg{
     align-items: center;
 }
 
-.slider-user-title{
+.slider-user-title {
     text-align: center;
     height: auto;
     font-family: "Poppins SemiBold";
@@ -393,33 +418,33 @@ button svg{
     color: #FFFFFF;
 }
 
-.slider-user-card{
+.slider-user-card {
     border-radius: 30px 0 30px 30px;
     background-color: #FFFFFF;
     width: 350px !important;
 
 }
 
-.slider-user-card p{
+.slider-user-card p {
     font-size: 21px;
     color: var(--color-text-nav);
 }
 
-.slider-user-card div{
+.slider-user-card div {
     width: 100%;
     margin-top: 42px;
     display: inline-flex;
 }
 
 
-.slider-user-card div h2{
-    
+.slider-user-card div h2 {
+
     width: auto;
     font-family: "Poppins SemiBold";
     font-size: 12px;
     color: var(--color-brand-hero-black-text);
 }
-.slider-user-card div h3{
+.slider-user-card div h3 {
     font-family: "Poppins Light";
     font-size: 14px;
     line-height: 24px;
@@ -439,8 +464,8 @@ footer {
     color: var(--color-brand-hero-black-text);
 }
 
-footer p{
+footer p {
     line-height: 36px;
     font-size: 24px;
-   
+
 }
