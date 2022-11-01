@@ -87,10 +87,12 @@ header li {
 header li a {
     text-decoration: none;
     color: var(--color-text-nav);
+    
 }
 
 .nav-item a:hover {
     color: var(--color-brand-button) !important;
+    font-weight: bold;
 }
 
 .navbar-options {
@@ -468,4 +470,26 @@ footer p {
     line-height: 36px;
     font-size: 24px;
 
+}
+
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.bg-form{
+    background-color: #90C0E8;
+}
+
+.active{
+    color: var(--color-brand-hero-yellow-text) !important;
+}
+
+.card{
+    --bs-card-cap-bg: rgb(241 241 241) !important;
+    --bs-card-border-color: none;
+}
+
+.nav{
+    --bs-nav-link-color: none;
 }
